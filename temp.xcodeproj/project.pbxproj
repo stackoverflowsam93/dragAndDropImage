@@ -15,6 +15,7 @@
 		22D634F523A2F98D00CD6081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D634F323A2F98D00CD6081 /* LaunchScreen.storyboard */; };
 		22D6350023A2F98D00CD6081 /* tempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D634FF23A2F98D00CD6081 /* tempTests.swift */; };
 		22D6350B23A2F98D00CD6081 /* tempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6350A23A2F98D00CD6081 /* tempUITests.swift */; };
+		22D6351923A3068400CD6081 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6351823A3068400CD6081 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		22D6350623A2F98D00CD6081 /* tempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D6350A23A2F98D00CD6081 /* tempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempUITests.swift; sourceTree = "<group>"; };
 		22D6350C23A2F98D00CD6081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D6351823A3068400CD6081 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				22D634F123A2F98D00CD6081 /* Assets.xcassets */,
 				22D634F323A2F98D00CD6081 /* LaunchScreen.storyboard */,
 				22D634F623A2F98D00CD6081 /* Info.plist */,
+				22D6351823A3068400CD6081 /* ImageCell.swift */,
 			);
 			path = temp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D634ED23A2F98500CD6081 /* ViewController.swift in Sources */,
+				22D6351923A3068400CD6081 /* ImageCell.swift in Sources */,
 				22D634E923A2F98500CD6081 /* AppDelegate.swift in Sources */,
 				22D634EB23A2F98500CD6081 /* SceneDelegate.swift in Sources */,
 			);

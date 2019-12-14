@@ -20,10 +20,15 @@ class ImageViewController: UIViewController{
     
     @IBAction func pinch(_ sender: UIPinchGestureRecognizer) {
         
-        if sender.state == .changed {
-            cellWidth *= sender.scale
-            sender.scale = 1.0
-            collectionView.collectionViewLayout.invalidateLayout()
+        switch(sender.state) {
+        case .began:
+                sender.scale = collectionView.zoomScale
+        case .changed:
+                collectionView.zoomScale = sender.scale
+        case .failed, .ended:
+                collectionView.collectionViewLayout.invalidateLayout()
+        default:
+            return
         }
     }
     
